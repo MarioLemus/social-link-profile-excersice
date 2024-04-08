@@ -7,23 +7,23 @@ This project is a little practice from frontendmentor, as it name suggests is a 
 Clone the repo:
 
 ```bash
-    git clone https://github.com/MarioLemus/social-link-profile-excersice.git
+git clone https://github.com/MarioLemus/social-link-profile-excersice.git
 ```
 
 Cd into the cloned project:
 
 ```bash
-    cd ~/social-link-profile-excersice
+cd ~/social-link-profile-excersice
 ```
 
 Install dependencies:
 
 ```bash
-    npm install
+npm install
 ```
 
 Run dev server:
 
 ```bash
-    npm run dev
+npm run dev
 ```
