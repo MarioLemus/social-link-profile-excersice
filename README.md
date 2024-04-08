@@ -1,6 +1,6 @@
 # Social Link Prolie Excercise
 
-This project is a little practice from frontendmentor, as it name suggests is a project that serves as a presentation card
+This project is a little practice from frontendmentor as its name suggests, it is a project that serves as a presentation card
 
 ## Getting started
 
