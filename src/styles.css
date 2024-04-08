@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400..700&display=swap');
+
+:root {
+    --green: hsl(75, 94%, 57%);
+    --white: hsl(0, 0%, 100%);
+    --grey: hsl(0, 0%, 20%);
+    --dark-grey: hsl(0, 0%, 12%);
+    --off-black: hsl(0, 0%, 8%);
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: var(--off-black);
+    color: var(--white);
+}
+
+p {
+    font-size: 14px;
+}
+
+.text--green {
+    color: var(--green);
+}
+
+.text--center {
+    text-align: center;
+}
+
+.text--semi-bold {
+    font-weight: 600;
+}
+
+.link {
+    color: var(--white);
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.rounded {
+    border-radius: 50%;
+}
+
+.personal-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.img {
+    object-fit: cover;
+}
+
+.img--medium {
+    width: 90px;
+    height: 90px;
+}
+
+.social-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;  
+    list-style-type: none;
+    padding: 0;
+}
+
+.list-elm {
+    list-style: none;
+    background-color: var(--grey);
+    text-align: center;
+    margin: 7px 0;
+    padding: 12px 0;
+    border-radius: 7px;    
+}
+
+.list-elm:hover {
+    background-color: var(--green);
+    color: var(--dark-grey);
+    transition: ease-in;
+}
+
+.card-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: var(--dark-grey);
+    padding: 30px;
+    max-width: 340px;
+    border-radius: 15px;
+}
